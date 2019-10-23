@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Hello, world!</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    
+  </head>
+  <body class="bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <div class="card card-body text-center mt-5">
+            <h1 class="heading display-5 pb-3">FORM </h1>
+            <form id="formData" method="POST" >
+              
+              <div class="form-group">
+                  <div class="input-group">
+                      <label>User name:</label>
+                      <input name="uname1" type="text" class="form-control ml-3" id="uname1"placeholder="user name">
+                  </div>
+                </div>
+
+                  <br>
+                  <div class="form-group">
+                  <div class="input-group">
+                  <label>E-mail id:</label>
+                  <input type="email" class="form-control ml-3" id="email" placeholder="email">
+                  </div>
+                  </div>
+                  
+                  <br>
+                  <div class="form-group">
+                   <div class="input-group">
+                      <label for="sel1">Gender</label>
+                   <label  class="form-control ml-3" ><input type="radio" name="optradio" id="radio" value="male" >male</label>
+                   <label  class="form-control ml-3" ><input type="radio" name="optradio" id="radio" value="female">female</label>
+                   <label  class="form-control ml-3" ><input type="radio" name="optradio" id="radio" value="other"  >other</label>
+
+                   </div>
+                  </div>
+
+                  <div class="form-group">
+                   <div class="input-group">
+
+                      <label for="sel1">Education</label>
+                      <select class="form-control ml-3"  id="edu">
+                        <option  >SELECT</option>
+                        <option value="B.E">B.E</option>
+                        <option value="ARTS">ARTS</option>
+                        <option value="DOCTOR">DOCTOR</option>
+                        <option value="ARTIUCTURE">ARTIUCTURE</option>
+                      </select>
+                    </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-group">
+                            <label for="sel1">Fax color</label>
+                            <div class="form-control ml-3">
+                              <div class="checkbox">
+                                <label class="form pl-4" ><input type="checkbox" name="color" checked id="color" value="red">red</label>
+                              </div>
+                              <div class="checkbox"class="form ml-2">
+                                <label class="form pl-4"><input type="checkbox" name="color" id="color" value="blue">blue</label>
+                              </div>
+                              <div class="checkbox" >
+                                <label class="form pl-4"><input type="checkbox" name="color" id="color" value="green">green</label>
+                              </div>
+                            </div>
+     
+                            
+                         </div>
+                         </div>
+
+                         <div class="form-group">
+                            <div class="input-group">
+                            <label >Address:</label >
+                            <textarea class="form-control" rows="5" id="address"></textarea>
+                            </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="input-group">
+                                <label >Date of birth:</label >
+                                  <div>
+                                     <input type="date" id="tbDate" />
+                                  </div>
+                                </div>
+                                </div>
+    
+
+
+
+
+
+                  
+                    
+                  
+              <div class="form-group">
+                <button id="form" type="button" class="btn  btn-block" >submit</button>
+                <input type="submit" value="reset"  id="ret" class="btn  btn-block">
+
+              </div>
+            </form>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
